@@ -1,13 +1,9 @@
 <script>
-	import CodeMirror from './CodeMirror.svelte'
+	import CodeEditor from './components/CodeEditor.svelte'
 	export let name;
 </script>
 
-<style>
-	h1 {
-		color: purple;
-	}
-</style>
+<style></style>
 
 
-<CodeMirror/>
+<CodeEditor/>
